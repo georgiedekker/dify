@@ -75,7 +75,7 @@ def insert_shared_env(template_path, output_path, shared_env_block, header_comme
 
 
 def main():
-    env_example_path = ".env.example"
+    env_example_path = ".env"
     template_path = "docker-compose-template.yaml"
     output_path = "docker-compose.yaml"
     anchor_name = "shared-api-worker-env"  # Can be modified as needed
