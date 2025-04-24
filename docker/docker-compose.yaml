@@ -632,7 +632,7 @@ services:
     depends_on:
       - api
     networks:
-      - dify-network
+      - default
     volumes:
       - ./volumes/plugin_daemon:/app/storage
 
